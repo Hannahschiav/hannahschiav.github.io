@@ -1,0 +1,137 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+#myname {font-size:32px}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.topthreeparagraphs {color: skyblue}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/cdn.opisas.com/newopisas/2018-03-09_73958_baltimore.crop-box-16-9.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+#firstfav {font-size: 23px;
+font-weight: 500;
+color:red;
+text-align: center}
+
+#secondfav {font-size:15px;
+font-weight: 430;
+color: navy;
+text-align: center}
+
+#thirdfav {font-size: 17px; 
+font-weight: 700;
+color: green; 
+text-align: center}
+
+#fourthfav {font-size: 14px;
+font-weight: 610; 
+color: purple; 
+text-align: center}
+
+#quotes {font-weight: bold; 
+text-align: center}
+
+#firstquote {font-size: 14px;
+  color: skyblue; 
+font-family: 'calibri'}
+
+#secondquote {font-size: 10px; 
+color: yellow;
+font-family: 'tahoma' }
+
+#thirdquote: {font-size: 19px; 
+color: indigo; 
+font-family: 'arial'}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
